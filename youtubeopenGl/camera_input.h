@@ -3,6 +3,7 @@
 #include <GLFW/glfw3.h>
 #include <vector>
 
+// camera_input.h - Declaraciones para control de cámara y entrada (una línea): expose externs y shims para la entrada y la ruta Bézier.
 // Camera / input related types and globals shared across translation units
 struct CameraController;
 struct BezierCameraPath;

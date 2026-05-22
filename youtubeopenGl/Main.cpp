@@ -1,4 +1,5 @@
 #include <iostream>
+// Main.cpp - Archivo principal: inicializa OpenGL/GLFW, carga recursos, controla la cámara y renderiza la escena.
 #include <fstream>
 #include <sstream>
 #include <string>
