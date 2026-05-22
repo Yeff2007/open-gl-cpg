@@ -1,0 +1,97 @@
+#OpenGL 3D Viewer – GLTF Cinematic Showcase
+
+Proyecto desarrollado en **C++ y OpenGL** enfocado en la carga y visualización de modelos 3D en formato `.gltf`, utilizando iluminación dinámica, cámara FPS y recorridos cinematográficos mediante curvas Bézier.
+
+El objetivo principal del proyecto es crear una experiencia visual moderna e interactiva donde los modelos 3D se rendericen correctamente con sus texturas originales, materiales PBR y movimientos de cámara suaves y profesionales.
+
+---
+
+# Características
+
+* Carga de modelos `.gltf`
+
+* Cámara FPS estilo shooter (`WASD + Mouse + Curva de Besier`)
+* Movimiento cinematográfico con curvas Bézier
+* Iluminación dinámica y sombras
+* Renderizado moderno con OpenGL
+* Sistema de shaders personalizado
+* Controles suaves y optimizados
+* Visualización cercana y enfocada al modelo
+* Organización modular del proyecto
+
+---
+
+# Sistema de Cámara
+
+El proyecto incluye dos modos de cámara:
+
+##Cámara Manual (FPS)
+
+Controles:
+
+* `W` → Avanzar
+* `A` → Izquierda
+* `S` → Retroceder
+* `D` → Derecha
+* `Mouse` → Rotar cámara
+* `Shift` → Movimiento rápido
+* `p` → Secuencia movimiento curva de Besier
+
+##Cámara Cinematográfica
+
+* Activada con la tecla `P`
+* Usa una curva Bézier alrededor del modelo
+* Movimiento suave y lento
+* Mantiene el modelo enfocado en todo momento
+* La curva NO se renderiza visualmente
+
+---
+
+#Tecnologías Utilizadas
+
+* **C++**
+* **OpenGL**
+* **GLFW**
+* **GLAD**
+* **GLM**
+* **stb_image**
+* **tinygltf**
+
+---
+
+#Objetivos del Proyecto
+
+* Aprender renderizado moderno con OpenGL
+* Implementar carga de modelos GLTF
+* Crear un visor 3D interactivo
+* Desarrollar una cámara cinematográfica
+* Mejorar organización y arquitectura de proyectos gráficos
+* Optimizar renderizado y manejo de assets
+
+---
+
+# ⚙️ Instalación
+
+## Requisitos
+
+* Visual Studio 2022
+* OpenGL 3.3+
+* CMake (opcional)
+
+
+# Estado Actual
+
+Actualmente el proyecto incluye:
+
+* Sistema de cámara FPS
+* Recorrido Bézier
+* Carga GLTF
+* Renderizado con texturas
+* Optimización básica del render
+
+
+# Autor
+
+Desarrollado por Yefferson Farid Rodríguez Sánchez.
+
+Proyecto académico y experimental enfocado en gráficos por computadora y visualización 3D en tiempo real.
