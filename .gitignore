@@ -1,0 +1,8 @@
+﻿.vs/
+vcpkg/
+x64/
+Debug/
+Release/
+*.obj
+*.exe
+*.pdb
